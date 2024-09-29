@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load your trained SVM model (make sure to specify the correct path to your model file)
-model = joblib.load('D:\MAIN2\Dicoding\Penerapan Data Science\Submission 2\svm_model.pkl')
+model = joblib.load('svm_model.pkl')
 
 # Function to predict student status
 def predict_student_status(inputs):
